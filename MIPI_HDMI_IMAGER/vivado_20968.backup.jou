@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2022.1 (64-bit)
+# SW Build 3526262 on Mon Apr 18 15:48:16 MDT 2022
+# IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+# Start of session at: Tue Sep 27 13:35:14 2022
+# Process ID: 20968
+# Current directory: C:/Users/sarah/Desktop/ECE493/Hackster-master/Hackster-master/MIPI_HDMI_IMAGER
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent21120 C:\Users\sarah\Desktop\ECE493\Hackster-master\Hackster-master\MIPI_HDMI_IMAGER\block_compile.xpr
+# Log file: C:/Users/sarah/Desktop/ECE493/Hackster-master/Hackster-master/MIPI_HDMI_IMAGER/vivado.log
+# Journal file: C:/Users/sarah/Desktop/ECE493/Hackster-master/Hackster-master/MIPI_HDMI_IMAGER\vivado.jou
+# Running On: LAPTOP-2NVNGLRD, OS: Windows, CPU Frequency: 2803 MHz, CPU Physical cores: 4, Host memory: 12674 MB
+#-----------------------------------------------------------
+start_gui
