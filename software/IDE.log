@@ -1,0 +1,18 @@
+23:23:09 DEBUG : Logs will be stored at '/home/ernesto/workstation/Systems_Cleanbot/software/IDE.log'.
+23:23:11 INFO  : Launching XSCT server: xsct -n  -interactive /home/ernesto/workstation/Systems_Cleanbot/software/temp_xsdb_launch_script.tcl
+23:23:11 INFO  : Registering command handlers for Vitis TCF services
+23:23:11 INFO  : Platform repository initialization has completed.
+23:23:13 INFO  : XSCT server has started successfully.
+23:23:13 INFO  : Successfully done setting XSCT server connection channel  
+23:23:13 INFO  : plnx-install-location is set to ''
+23:23:13 INFO  : Successfully done setting workspace for the tool. 
+23:23:13 INFO  : Successfully done query RDI_DATADIR 
+23:27:07 INFO  : Result from executing command 'getProjects': design_1_wrapper
+23:27:07 INFO  : Result from executing command 'getPlatforms': xilinx_vck190_base_202210_1|/opt/Vitis/2022.1/base_platforms/xilinx_vck190_base_202210_1/xilinx_vck190_base_202210_1.xpfm;xilinx_vck190_base_dfx_202210_1|/opt/Vitis/2022.1/base_platforms/xilinx_vck190_base_dfx_202210_1/xilinx_vck190_base_dfx_202210_1.xpfm;xilinx_vmk180_base_202210_1|/opt/Vitis/2022.1/base_platforms/xilinx_vmk180_base_202210_1/xilinx_vmk180_base_202210_1.xpfm;xilinx_zcu102_base_202210_1|/opt/Vitis/2022.1/base_platforms/xilinx_zcu102_base_202210_1/xilinx_zcu102_base_202210_1.xpfm;xilinx_zcu102_base_dfx_202210_1|/opt/Vitis/2022.1/base_platforms/xilinx_zcu102_base_dfx_202210_1/xilinx_zcu102_base_dfx_202210_1.xpfm;xilinx_zcu104_base_202210_1|/opt/Vitis/2022.1/base_platforms/xilinx_zcu104_base_202210_1/xilinx_zcu104_base_202210_1.xpfm
+23:27:07 WARN  : An unexpected exception occurred in the module 'platform project logging'
+23:27:08 INFO  : Platform 'design_1_wrapper' is added to custom repositories.
+23:27:27 INFO  : Platform 'design_1_wrapper' is added to custom repositories.
+23:34:29 INFO  : Result from executing command 'getProjects': design_1_wrapper
+23:34:29 INFO  : Result from executing command 'getPlatforms': design_1_wrapper|/home/ernesto/workstation/Systems_Cleanbot/software/design_1_wrapper/export/design_1_wrapper/design_1_wrapper.xpfm;xilinx_vck190_base_202210_1|/opt/Vitis/2022.1/base_platforms/xilinx_vck190_base_202210_1/xilinx_vck190_base_202210_1.xpfm;xilinx_vck190_base_dfx_202210_1|/opt/Vitis/2022.1/base_platforms/xilinx_vck190_base_dfx_202210_1/xilinx_vck190_base_dfx_202210_1.xpfm;xilinx_vmk180_base_202210_1|/opt/Vitis/2022.1/base_platforms/xilinx_vmk180_base_202210_1/xilinx_vmk180_base_202210_1.xpfm;xilinx_zcu102_base_202210_1|/opt/Vitis/2022.1/base_platforms/xilinx_zcu102_base_202210_1/xilinx_zcu102_base_202210_1.xpfm;xilinx_zcu102_base_dfx_202210_1|/opt/Vitis/2022.1/base_platforms/xilinx_zcu102_base_dfx_202210_1/xilinx_zcu102_base_dfx_202210_1.xpfm;xilinx_zcu104_base_202210_1|/opt/Vitis/2022.1/base_platforms/xilinx_zcu104_base_202210_1/xilinx_zcu104_base_202210_1.xpfm
+23:34:32 INFO  : Checking for BSP changes to sync application flags for project 'PCAM_app'...
+23:34:46 INFO  : Checking for BSP changes to sync application flags for project 'PCAM_app'...

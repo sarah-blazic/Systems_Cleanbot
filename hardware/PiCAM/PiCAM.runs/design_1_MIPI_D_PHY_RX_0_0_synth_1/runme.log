@@ -1,0 +1,571 @@
+
+*** Running vivado
+    with args -log design_1_MIPI_D_PHY_RX_0_0.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source design_1_MIPI_D_PHY_RX_0_0.tcl
+
+
+****** Vivado v2022.1 (64-bit)
+  **** SW Build 3526262 on Mon Apr 18 15:47:01 MDT 2022
+  **** IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+
+source design_1_MIPI_D_PHY_RX_0_0.tcl -notrace
+create_project: Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 2906.957 ; gain = 0.023 ; free physical = 5613 ; free virtual = 31198
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/ernesto/workstation/Systems_Cleanbot/MIPI_HDMI_IMAGER/block_compile.ipdefs/digilent_0'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/opt/Vivado/2022.1/data/ip'.
+Command: synth_design -top design_1_MIPI_D_PHY_RX_0_0 -part xc7z020clg400-1 -incremental_mode off -mode out_of_context
+Starting synth_design
+INFO: [IP_Flow 19-2162] IP 'design_1_MIPI_D_PHY_RX_0_0' is locked:
+* IP 'design_1_MIPI_D_PHY_RX_0_0' contains one or more locked subcores.
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Device 21-403] Loading part xc7z020clg400-1
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 4 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 12823
+WARNING: [Synth 8-9501] generate block is allowed only inside loop and conditional generate in SystemVerilog mode [/opt/Vivado/2022.1/data/ip/xpm/xpm_fifo/hdl/xpm_fifo.sv:4023]
+WARNING: [Synth 8-9889] parameter declaration is not allowed here in this mode of verilog [/home/ernesto/workstation/Systems_Cleanbot/hardware/PiCAM/PiCAM.srcs/sources_1/bd/design_1/ip/design_1_MIPI_D_PHY_RX_0_0_1/hdl/ila_scnn_refclk/hdl/ila_v6_2_syn_rfs.v:4411]
+WARNING: [Synth 8-9889] parameter declaration is not allowed here in this mode of verilog [/home/ernesto/workstation/Systems_Cleanbot/hardware/PiCAM/PiCAM.srcs/sources_1/bd/design_1/ip/design_1_MIPI_D_PHY_RX_0_0_1/hdl/ila_scnn_refclk/hdl/ila_v6_2_syn_rfs.v:4412]
+WARNING: [Synth 8-9889] parameter declaration is not allowed here in this mode of verilog [/home/ernesto/workstation/Systems_Cleanbot/hardware/PiCAM/PiCAM.srcs/sources_1/bd/design_1/ip/design_1_MIPI_D_PHY_RX_0_0_1/hdl/ila_scnn_refclk/hdl/ila_v6_2_syn_rfs.v:4413]
+WARNING: [Synth 8-9889] parameter declaration is not allowed here in this mode of verilog [/home/ernesto/workstation/Systems_Cleanbot/hardware/PiCAM/PiCAM.srcs/sources_1/bd/design_1/ip/design_1_MIPI_D_PHY_RX_0_0_1/hdl/ila_scnn_refclk/hdl/ila_v6_2_syn_rfs.v:4414]
+WARNING: [Synth 8-9889] parameter declaration is not allowed here in this mode of verilog [/home/ernesto/workstation/Systems_Cleanbot/hardware/PiCAM/PiCAM.srcs/sources_1/bd/design_1/ip/design_1_MIPI_D_PHY_RX_0_0_1/hdl/ila_scnn_refclk/hdl/ila_v6_2_syn_rfs.v:4415]
+WARNING: [Synth 8-9889] parameter declaration is not allowed here in this mode of verilog [/home/ernesto/workstation/Systems_Cleanbot/hardware/PiCAM/PiCAM.srcs/sources_1/bd/design_1/ip/design_1_MIPI_D_PHY_RX_0_0_1/hdl/ila_scnn_refclk/hdl/ila_v6_2_syn_rfs.v:4416]
+WARNING: [Synth 8-9889] parameter declaration is not allowed here in this mode of verilog [/home/ernesto/workstation/Systems_Cleanbot/hardware/PiCAM/PiCAM.srcs/sources_1/bd/design_1/ip/design_1_MIPI_D_PHY_RX_0_0_1/hdl/ila_scnn_refclk/hdl/ila_v6_2_syn_rfs.v:4470]
+WARNING: [Synth 8-9889] parameter declaration is not allowed here in this mode of verilog [/home/ernesto/workstation/Systems_Cleanbot/hardware/PiCAM/PiCAM.srcs/sources_1/bd/design_1/ip/design_1_MIPI_D_PHY_RX_0_0_1/hdl/ila_scnn_refclk/hdl/ila_v6_2_syn_rfs.v:4471]
+WARNING: [Synth 8-9889] parameter declaration is not allowed here in this mode of verilog [/home/ernesto/workstation/Systems_Cleanbot/hardware/PiCAM/PiCAM.srcs/sources_1/bd/design_1/ip/design_1_MIPI_D_PHY_RX_0_0_1/hdl/ila_scnn_refclk/hdl/ila_v6_2_syn_rfs.v:4472]
+WARNING: [Synth 8-9889] parameter declaration is not allowed here in this mode of verilog [/home/ernesto/workstation/Systems_Cleanbot/hardware/PiCAM/PiCAM.srcs/sources_1/bd/design_1/ip/design_1_MIPI_D_PHY_RX_0_0_1/hdl/ila_scnn_refclk/hdl/ila_v6_2_syn_rfs.v:5370]
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:11 . Memory (MB): peak = 2906.957 ; gain = 0.000 ; free physical = 1945 ; free virtual = 25065
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-9112] actual for formal port 'areset' is neither a static name nor a globally static expression [/home/ernesto/workstation/Systems_Cleanbot/hardware/PiCAM/PiCAM.srcs/sources_1/bd/design_1/ipshared/1e3c/hdl/HS_Deserializer.vhd:266]
+INFO: [Synth 8-638] synthesizing module 'design_1_MIPI_D_PHY_RX_0_0' [/home/ernesto/workstation/Systems_Cleanbot/hardware/PiCAM/PiCAM.srcs/sources_1/bd/design_1/ip/design_1_MIPI_D_PHY_RX_0_0_1/synth/design_1_MIPI_D_PHY_RX_0_0.vhd:137]
+	Parameter C_S_AXI_LITE_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_S_AXI_LITE_ADDR_WIDTH bound to: 4 - type: integer 
+	Parameter kVersionMajor bound to: 1 - type: integer 
+	Parameter kVersionMinor bound to: 2 - type: integer 
+	Parameter kNoOfDataLanes bound to: 2 - type: integer 
+	Parameter kGenerateMMCM bound to: 0 - type: bool 
+	Parameter kGenerateAXIL bound to: 1 - type: bool 
+	Parameter kAddDelayClk_ps bound to: 0 - type: integer 
+	Parameter kAddDelayData0_ps bound to: 0 - type: integer 
+	Parameter kAddDelayData1_ps bound to: 0 - type: integer 
+	Parameter kRefClkFreqHz bound to: 200000000 - type: integer 
+	Parameter kDebug bound to: 0 - type: bool 
+	Parameter C_S_AXI_LITE_FREQ_HZ bound to: 100000000 - type: integer 
+	Parameter kLPFromLane0 bound to: 0 - type: bool 
+INFO: [Synth 8-3491] module 'MIPI_DPHY_Receiver' declared at '/home/ernesto/workstation/Systems_Cleanbot/hardware/PiCAM/PiCAM.srcs/sources_1/bd/design_1/ipshared/1e3c/hdl/MIPI_DPHY_Receiver.vhd:53' bound to instance 'U0' of component 'MIPI_DPHY_Receiver' [/home/ernesto/workstation/Systems_Cleanbot/hardware/PiCAM/PiCAM.srcs/sources_1/bd/design_1/ip/design_1_MIPI_D_PHY_RX_0_0_1/synth/design_1_MIPI_D_PHY_RX_0_0.vhd:317]
+INFO: [Synth 8-638] synthesizing module 'MIPI_DPHY_Receiver' [/home/ernesto/workstation/Systems_Cleanbot/hardware/PiCAM/PiCAM.srcs/sources_1/bd/design_1/ipshared/1e3c/hdl/MIPI_DPHY_Receiver.vhd:180]
+INFO: [Synth 8-638] synthesizing module 'MIPI_DPHY_Receiver_S_AXI_Lite' [/home/ernesto/workstation/Systems_Cleanbot/hardware/PiCAM/PiCAM.srcs/sources_1/bd/design_1/ipshared/1e3c/hdl/S_AXI_Lite.vhd:120]
+INFO: [Synth 8-256] done synthesizing module 'MIPI_DPHY_Receiver_S_AXI_Lite' (0#1) [/home/ernesto/workstation/Systems_Cleanbot/hardware/PiCAM/PiCAM.srcs/sources_1/bd/design_1/ipshared/1e3c/hdl/S_AXI_Lite.vhd:120]
+INFO: [Synth 8-638] synthesizing module 'ResetBridge' [/home/ernesto/workstation/Systems_Cleanbot/hardware/PiCAM/PiCAM.srcs/sources_1/bd/design_1/ipshared/1e3c/hdl/SyncAsyncReset.vhd:65]
+INFO: [Synth 8-638] synthesizing module 'SyncAsync' [/home/ernesto/workstation/Systems_Cleanbot/hardware/PiCAM/PiCAM.srcs/sources_1/bd/design_1/ipshared/1e3c/hdl/SyncAsync.vhd:66]
+INFO: [Synth 8-256] done synthesizing module 'SyncAsync' (0#1) [/home/ernesto/workstation/Systems_Cleanbot/hardware/PiCAM/PiCAM.srcs/sources_1/bd/design_1/ipshared/1e3c/hdl/SyncAsync.vhd:66]
+INFO: [Synth 8-256] done synthesizing module 'ResetBridge' (0#1) [/home/ernesto/workstation/Systems_Cleanbot/hardware/PiCAM/PiCAM.srcs/sources_1/bd/design_1/ipshared/1e3c/hdl/SyncAsyncReset.vhd:65]
+INFO: [Synth 8-638] synthesizing module 'SyncAsync__parameterized0' [/home/ernesto/workstation/Systems_Cleanbot/hardware/PiCAM/PiCAM.srcs/sources_1/bd/design_1/ipshared/1e3c/hdl/SyncAsync.vhd:66]
+INFO: [Synth 8-256] done synthesizing module 'SyncAsync__parameterized0' (0#1) [/home/ernesto/workstation/Systems_Cleanbot/hardware/PiCAM/PiCAM.srcs/sources_1/bd/design_1/ipshared/1e3c/hdl/SyncAsync.vhd:66]
+INFO: [Synth 8-113] binding component instance 'IDelayCtrlX' to cell 'IDELAYCTRL' [/home/ernesto/workstation/Systems_Cleanbot/hardware/PiCAM/PiCAM.srcs/sources_1/bd/design_1/ipshared/1e3c/hdl/MIPI_DPHY_Receiver.vhd:409]
+INFO: [Synth 8-638] synthesizing module 'InputBuffer' [/home/ernesto/workstation/Systems_Cleanbot/hardware/PiCAM/PiCAM.srcs/sources_1/bd/design_1/ipshared/1e3c/hdl/InputBuffer.vhd:67]
+	Parameter DIFF_TERM bound to: 0 - type: bool 
+	Parameter IBUF_LOW_PWR bound to: 0 - type: bool 
+	Parameter IOSTANDARD bound to: LVDS_25 - type: string 
+INFO: [Synth 8-113] binding component instance 'LaneHighSpeed' to cell 'IBUFDS' [/home/ernesto/workstation/Systems_Cleanbot/hardware/PiCAM/PiCAM.srcs/sources_1/bd/design_1/ipshared/1e3c/hdl/InputBuffer.vhd:71]
+	Parameter IBUF_LOW_PWR bound to: 1 - type: bool 
+	Parameter IOSTANDARD bound to: HSUL_12 - type: string 
+INFO: [Synth 8-113] binding component instance 'LaneLowPower0' to cell 'IBUF' [/home/ernesto/workstation/Systems_Cleanbot/hardware/PiCAM/PiCAM.srcs/sources_1/bd/design_1/ipshared/1e3c/hdl/InputBuffer.vhd:83]
+	Parameter IBUF_LOW_PWR bound to: 1 - type: bool 
+	Parameter IOSTANDARD bound to: HSUL_12 - type: string 
+INFO: [Synth 8-113] binding component instance 'LaneLowPower1' to cell 'IBUF' [/home/ernesto/workstation/Systems_Cleanbot/hardware/PiCAM/PiCAM.srcs/sources_1/bd/design_1/ipshared/1e3c/hdl/InputBuffer.vhd:92]
+INFO: [Synth 8-256] done synthesizing module 'InputBuffer' (0#1) [/home/ernesto/workstation/Systems_Cleanbot/hardware/PiCAM/PiCAM.srcs/sources_1/bd/design_1/ipshared/1e3c/hdl/InputBuffer.vhd:67]
+INFO: [Synth 8-638] synthesizing module 'DPHY_LaneSCNN' [/home/ernesto/workstation/Systems_Cleanbot/hardware/PiCAM/PiCAM.srcs/sources_1/bd/design_1/ipshared/1e3c/hdl/DPHY_LaneSCNN.vhd:84]
+INFO: [Synth 8-638] synthesizing module 'GlitchFilter' [/home/ernesto/workstation/Systems_Cleanbot/hardware/PiCAM/PiCAM.srcs/sources_1/bd/design_1/ipshared/1e3c/hdl/GlitchFilter.vhd:62]
+INFO: [Synth 8-256] done synthesizing module 'GlitchFilter' (0#1) [/home/ernesto/workstation/Systems_Cleanbot/hardware/PiCAM/PiCAM.srcs/sources_1/bd/design_1/ipshared/1e3c/hdl/GlitchFilter.vhd:62]
+INFO: [Synth 8-638] synthesizing module 'HS_Clocking' [/home/ernesto/workstation/Systems_Cleanbot/hardware/PiCAM/PiCAM.srcs/sources_1/bd/design_1/ipshared/1e3c/hdl/HS_Clocking.vhd:75]
+	Parameter CINVCTRL_SEL bound to: FALSE - type: string 
+	Parameter DELAY_SRC bound to: IDATAIN - type: string 
+	Parameter HIGH_PERFORMANCE_MODE bound to: TRUE - type: string 
+	Parameter IDELAY_TYPE bound to: FIXED - type: string 
+	Parameter IDELAY_VALUE bound to: 0 - type: integer 
+	Parameter PIPE_SEL bound to: FALSE - type: string 
+	Parameter REFCLK_FREQUENCY bound to: 200.000000 - type: double 
+	Parameter SIGNAL_PATTERN bound to: CLOCK - type: string 
+INFO: [Synth 8-113] binding component instance 'InputDelay' to cell 'IDELAYE2' [/home/ernesto/workstation/Systems_Cleanbot/hardware/PiCAM/PiCAM.srcs/sources_1/bd/design_1/ipshared/1e3c/hdl/HS_Clocking.vhd:117]
+INFO: [Synth 8-113] binding component instance 'SerialClkBuffer' to cell 'BUFIO' [/home/ernesto/workstation/Systems_Cleanbot/hardware/PiCAM/PiCAM.srcs/sources_1/bd/design_1/ipshared/1e3c/hdl/HS_Clocking.vhd:267]
+	Parameter BUFR_DIVIDE bound to: 4 - type: string 
+	Parameter SIM_DEVICE bound to: 7SERIES - type: string 
+INFO: [Synth 8-113] binding component instance 'DivClkBuffer' to cell 'BUFR' [/home/ernesto/workstation/Systems_Cleanbot/hardware/PiCAM/PiCAM.srcs/sources_1/bd/design_1/ipshared/1e3c/hdl/HS_Clocking.vhd:273]
+INFO: [Synth 8-256] done synthesizing module 'HS_Clocking' (0#1) [/home/ernesto/workstation/Systems_Cleanbot/hardware/PiCAM/PiCAM.srcs/sources_1/bd/design_1/ipshared/1e3c/hdl/HS_Clocking.vhd:75]
+INFO: [Synth 8-256] done synthesizing module 'DPHY_LaneSCNN' (0#1) [/home/ernesto/workstation/Systems_Cleanbot/hardware/PiCAM/PiCAM.srcs/sources_1/bd/design_1/ipshared/1e3c/hdl/DPHY_LaneSCNN.vhd:84]
+INFO: [Synth 8-638] synthesizing module 'InputBuffer__parameterized0' [/home/ernesto/workstation/Systems_Cleanbot/hardware/PiCAM/PiCAM.srcs/sources_1/bd/design_1/ipshared/1e3c/hdl/InputBuffer.vhd:67]
+	Parameter DIFF_TERM bound to: 0 - type: bool 
+	Parameter IBUF_LOW_PWR bound to: 0 - type: bool 
+	Parameter IOSTANDARD bound to: LVDS_25 - type: string 
+INFO: [Synth 8-113] binding component instance 'LaneHighSpeed' to cell 'IBUFDS' [/home/ernesto/workstation/Systems_Cleanbot/hardware/PiCAM/PiCAM.srcs/sources_1/bd/design_1/ipshared/1e3c/hdl/InputBuffer.vhd:71]
+	Parameter IBUF_LOW_PWR bound to: 1 - type: bool 
+	Parameter IOSTANDARD bound to: HSUL_12 - type: string 
+INFO: [Synth 8-113] binding component instance 'LaneLowPower0' to cell 'IBUF' [/home/ernesto/workstation/Systems_Cleanbot/hardware/PiCAM/PiCAM.srcs/sources_1/bd/design_1/ipshared/1e3c/hdl/InputBuffer.vhd:83]
+	Parameter IBUF_LOW_PWR bound to: 1 - type: bool 
+	Parameter IOSTANDARD bound to: HSUL_12 - type: string 
+INFO: [Synth 8-113] binding component instance 'LaneLowPower1' to cell 'IBUF' [/home/ernesto/workstation/Systems_Cleanbot/hardware/PiCAM/PiCAM.srcs/sources_1/bd/design_1/ipshared/1e3c/hdl/InputBuffer.vhd:92]
+INFO: [Synth 8-256] done synthesizing module 'InputBuffer__parameterized0' (0#1) [/home/ernesto/workstation/Systems_Cleanbot/hardware/PiCAM/PiCAM.srcs/sources_1/bd/design_1/ipshared/1e3c/hdl/InputBuffer.vhd:67]
+INFO: [Synth 8-638] synthesizing module 'DPHY_LaneSFEN' [/home/ernesto/workstation/Systems_Cleanbot/hardware/PiCAM/PiCAM.srcs/sources_1/bd/design_1/ipshared/1e3c/hdl/DPHY_LaneSFEN.vhd:114]
+INFO: [Synth 8-638] synthesizing module 'HS_Deserializer' [/home/ernesto/workstation/Systems_Cleanbot/hardware/PiCAM/PiCAM.srcs/sources_1/bd/design_1/ipshared/1e3c/hdl/HS_Deserializer.vhd:93]
+	Parameter CINVCTRL_SEL bound to: FALSE - type: string 
+	Parameter DELAY_SRC bound to: IDATAIN - type: string 
+	Parameter HIGH_PERFORMANCE_MODE bound to: TRUE - type: string 
+	Parameter IDELAY_TYPE bound to: VARIABLE - type: string 
+	Parameter IDELAY_VALUE bound to: 12 - type: integer 
+	Parameter PIPE_SEL bound to: FALSE - type: string 
+	Parameter REFCLK_FREQUENCY bound to: 200.000000 - type: double 
+	Parameter SIGNAL_PATTERN bound to: DATA - type: string 
+INFO: [Synth 8-113] binding component instance 'InputDelay' to cell 'IDELAYE2' [/home/ernesto/workstation/Systems_Cleanbot/hardware/PiCAM/PiCAM.srcs/sources_1/bd/design_1/ipshared/1e3c/hdl/HS_Deserializer.vhd:166]
+	Parameter DATA_RATE bound to: DDR - type: string 
+	Parameter DATA_WIDTH bound to: 8 - type: integer 
+	Parameter DYN_CLKDIV_INV_EN bound to: FALSE - type: string 
+	Parameter DYN_CLK_INV_EN bound to: FALSE - type: string 
+	Parameter INIT_Q1 bound to: 1'b0 
+	Parameter INIT_Q2 bound to: 1'b0 
+	Parameter INIT_Q3 bound to: 1'b0 
+	Parameter INIT_Q4 bound to: 1'b0 
+	Parameter INTERFACE_TYPE bound to: NETWORKING - type: string 
+	Parameter IOBDELAY bound to: IFD - type: string 
+	Parameter NUM_CE bound to: 1 - type: integer 
+	Parameter OFB_USED bound to: FALSE - type: string 
+	Parameter SERDES_MODE bound to: MASTER - type: string 
+	Parameter SRVAL_Q1 bound to: 1'b0 
+	Parameter SRVAL_Q2 bound to: 1'b0 
+	Parameter SRVAL_Q3 bound to: 1'b0 
+	Parameter SRVAL_Q4 bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'Deserializer' to cell 'ISERDESE2' [/home/ernesto/workstation/Systems_Cleanbot/hardware/PiCAM/PiCAM.srcs/sources_1/bd/design_1/ipshared/1e3c/hdl/HS_Deserializer.vhd:197]
+INFO: [Synth 8-638] synthesizing module 'SyncAsync__parameterized1' [/home/ernesto/workstation/Systems_Cleanbot/hardware/PiCAM/PiCAM.srcs/sources_1/bd/design_1/ipshared/1e3c/hdl/SyncAsync.vhd:66]
+INFO: [Synth 8-256] done synthesizing module 'SyncAsync__parameterized1' (0#1) [/home/ernesto/workstation/Systems_Cleanbot/hardware/PiCAM/PiCAM.srcs/sources_1/bd/design_1/ipshared/1e3c/hdl/SyncAsync.vhd:66]
+	Parameter DATA_RATE bound to: DDR - type: string 
+	Parameter DATA_WIDTH bound to: 8 - type: integer 
+	Parameter DYN_CLKDIV_INV_EN bound to: FALSE - type: string 
+	Parameter DYN_CLK_INV_EN bound to: FALSE - type: string 
+	Parameter INIT_Q1 bound to: 1'b1 
+	Parameter INIT_Q2 bound to: 1'b1 
+	Parameter INIT_Q3 bound to: 1'b1 
+	Parameter INIT_Q4 bound to: 1'b1 
+	Parameter INTERFACE_TYPE bound to: NETWORKING - type: string 
+	Parameter IOBDELAY bound to: NONE - type: string 
+	Parameter NUM_CE bound to: 1 - type: integer 
+	Parameter OFB_USED bound to: FALSE - type: string 
+	Parameter SERDES_MODE bound to: MASTER - type: string 
+	Parameter SRVAL_Q1 bound to: 1'b1 
+	Parameter SRVAL_Q2 bound to: 1'b1 
+	Parameter SRVAL_Q3 bound to: 1'b1 
+	Parameter SRVAL_Q4 bound to: 1'b1 
+INFO: [Synth 8-113] binding component instance 'LP_DeserializerX' to cell 'ISERDESE2' [/home/ernesto/workstation/Systems_Cleanbot/hardware/PiCAM/PiCAM.srcs/sources_1/bd/design_1/ipshared/1e3c/hdl/HS_Deserializer.vhd:276]
+	Parameter DATA_RATE bound to: DDR - type: string 
+	Parameter DATA_WIDTH bound to: 8 - type: integer 
+	Parameter DYN_CLKDIV_INV_EN bound to: FALSE - type: string 
+	Parameter DYN_CLK_INV_EN bound to: FALSE - type: string 
+	Parameter INIT_Q1 bound to: 1'b1 
+	Parameter INIT_Q2 bound to: 1'b1 
+	Parameter INIT_Q3 bound to: 1'b1 
+	Parameter INIT_Q4 bound to: 1'b1 
+	Parameter INTERFACE_TYPE bound to: NETWORKING - type: string 
+	Parameter IOBDELAY bound to: NONE - type: string 
+	Parameter NUM_CE bound to: 1 - type: integer 
+	Parameter OFB_USED bound to: FALSE - type: string 
+	Parameter SERDES_MODE bound to: MASTER - type: string 
+	Parameter SRVAL_Q1 bound to: 1'b1 
+	Parameter SRVAL_Q2 bound to: 1'b1 
+	Parameter SRVAL_Q3 bound to: 1'b1 
+	Parameter SRVAL_Q4 bound to: 1'b1 
+INFO: [Synth 8-113] binding component instance 'LP_DeserializerX' to cell 'ISERDESE2' [/home/ernesto/workstation/Systems_Cleanbot/hardware/PiCAM/PiCAM.srcs/sources_1/bd/design_1/ipshared/1e3c/hdl/HS_Deserializer.vhd:276]
+INFO: [Synth 8-256] done synthesizing module 'HS_Deserializer' (0#1) [/home/ernesto/workstation/Systems_Cleanbot/hardware/PiCAM/PiCAM.srcs/sources_1/bd/design_1/ipshared/1e3c/hdl/HS_Deserializer.vhd:93]
+INFO: [Synth 8-256] done synthesizing module 'DPHY_LaneSFEN' (0#1) [/home/ernesto/workstation/Systems_Cleanbot/hardware/PiCAM/PiCAM.srcs/sources_1/bd/design_1/ipshared/1e3c/hdl/DPHY_LaneSFEN.vhd:114]
+INFO: [Synth 8-256] done synthesizing module 'MIPI_DPHY_Receiver' (0#1) [/home/ernesto/workstation/Systems_Cleanbot/hardware/PiCAM/PiCAM.srcs/sources_1/bd/design_1/ipshared/1e3c/hdl/MIPI_DPHY_Receiver.vhd:180]
+INFO: [Synth 8-256] done synthesizing module 'design_1_MIPI_D_PHY_RX_0_0' (0#1) [/home/ernesto/workstation/Systems_Cleanbot/hardware/PiCAM/PiCAM.srcs/sources_1/bd/design_1/ip/design_1_MIPI_D_PHY_RX_0_0_1/synth/design_1_MIPI_D_PHY_RX_0_0.vhd:137]
+WARNING: [Synth 8-3848] Net dDataOut9 in module/entity HS_Deserializer does not have driver. [/home/ernesto/workstation/Systems_Cleanbot/hardware/PiCAM/PiCAM.srcs/sources_1/bd/design_1/ipshared/1e3c/hdl/HS_Deserializer.vhd:74]
+WARNING: [Synth 8-3848] Net aErrEsc in module/entity DPHY_LaneSFEN does not have driver. [/home/ernesto/workstation/Systems_Cleanbot/hardware/PiCAM/PiCAM.srcs/sources_1/bd/design_1/ipshared/1e3c/hdl/DPHY_LaneSFEN.vhd:95]
+WARNING: [Synth 8-3848] Net aErrControl in module/entity DPHY_LaneSFEN does not have driver. [/home/ernesto/workstation/Systems_Cleanbot/hardware/PiCAM/PiCAM.srcs/sources_1/bd/design_1/ipshared/1e3c/hdl/DPHY_LaneSFEN.vhd:96]
+WARNING: [Synth 8-3848] Net aClkErrControl in module/entity MIPI_DPHY_Receiver does not have driver. [/home/ernesto/workstation/Systems_Cleanbot/hardware/PiCAM/PiCAM.srcs/sources_1/bd/design_1/ipshared/1e3c/hdl/MIPI_DPHY_Receiver.vhd:97]
+WARNING: [Synth 8-3848] Net SFEN_Lanes[0][aUlpsActiveNot] in module/entity MIPI_DPHY_Receiver does not have driver. [/home/ernesto/workstation/Systems_Cleanbot/hardware/PiCAM/PiCAM.srcs/sources_1/bd/design_1/ipshared/1e3c/hdl/MIPI_DPHY_Receiver.vhd:252]
+WARNING: [Synth 8-3848] Net SFEN_Lanes[0][RxClkEsc] in module/entity MIPI_DPHY_Receiver does not have driver. [/home/ernesto/workstation/Systems_Cleanbot/hardware/PiCAM/PiCAM.srcs/sources_1/bd/design_1/ipshared/1e3c/hdl/MIPI_DPHY_Receiver.vhd:252]
+WARNING: [Synth 8-3848] Net SFEN_Lanes[0][aRxDataEsc] in module/entity MIPI_DPHY_Receiver does not have driver. [/home/ernesto/workstation/Systems_Cleanbot/hardware/PiCAM/PiCAM.srcs/sources_1/bd/design_1/ipshared/1e3c/hdl/MIPI_DPHY_Receiver.vhd:252]
+WARNING: [Synth 8-3848] Net SFEN_Lanes[0][aRxValidEsc] in module/entity MIPI_DPHY_Receiver does not have driver. [/home/ernesto/workstation/Systems_Cleanbot/hardware/PiCAM/PiCAM.srcs/sources_1/bd/design_1/ipshared/1e3c/hdl/MIPI_DPHY_Receiver.vhd:252]
+WARNING: [Synth 8-3848] Net SFEN_Lanes[0][aRxLpdtEsc] in module/entity MIPI_DPHY_Receiver does not have driver. [/home/ernesto/workstation/Systems_Cleanbot/hardware/PiCAM/PiCAM.srcs/sources_1/bd/design_1/ipshared/1e3c/hdl/MIPI_DPHY_Receiver.vhd:252]
+WARNING: [Synth 8-3848] Net SFEN_Lanes[0][aRxUlpsEsc] in module/entity MIPI_DPHY_Receiver does not have driver. [/home/ernesto/workstation/Systems_Cleanbot/hardware/PiCAM/PiCAM.srcs/sources_1/bd/design_1/ipshared/1e3c/hdl/MIPI_DPHY_Receiver.vhd:252]
+WARNING: [Synth 8-3848] Net SFEN_Lanes[0][aRxTriggerEsc] in module/entity MIPI_DPHY_Receiver does not have driver. [/home/ernesto/workstation/Systems_Cleanbot/hardware/PiCAM/PiCAM.srcs/sources_1/bd/design_1/ipshared/1e3c/hdl/MIPI_DPHY_Receiver.vhd:252]
+WARNING: [Synth 8-3848] Net SFEN_Lanes[1][aUlpsActiveNot] in module/entity MIPI_DPHY_Receiver does not have driver. [/home/ernesto/workstation/Systems_Cleanbot/hardware/PiCAM/PiCAM.srcs/sources_1/bd/design_1/ipshared/1e3c/hdl/MIPI_DPHY_Receiver.vhd:252]
+WARNING: [Synth 8-3848] Net SFEN_Lanes[1][RxClkEsc] in module/entity MIPI_DPHY_Receiver does not have driver. [/home/ernesto/workstation/Systems_Cleanbot/hardware/PiCAM/PiCAM.srcs/sources_1/bd/design_1/ipshared/1e3c/hdl/MIPI_DPHY_Receiver.vhd:252]
+WARNING: [Synth 8-3848] Net SFEN_Lanes[1][aRxDataEsc] in module/entity MIPI_DPHY_Receiver does not have driver. [/home/ernesto/workstation/Systems_Cleanbot/hardware/PiCAM/PiCAM.srcs/sources_1/bd/design_1/ipshared/1e3c/hdl/MIPI_DPHY_Receiver.vhd:252]
+WARNING: [Synth 8-3848] Net SFEN_Lanes[1][aRxValidEsc] in module/entity MIPI_DPHY_Receiver does not have driver. [/home/ernesto/workstation/Systems_Cleanbot/hardware/PiCAM/PiCAM.srcs/sources_1/bd/design_1/ipshared/1e3c/hdl/MIPI_DPHY_Receiver.vhd:252]
+WARNING: [Synth 8-3848] Net SFEN_Lanes[1][aRxLpdtEsc] in module/entity MIPI_DPHY_Receiver does not have driver. [/home/ernesto/workstation/Systems_Cleanbot/hardware/PiCAM/PiCAM.srcs/sources_1/bd/design_1/ipshared/1e3c/hdl/MIPI_DPHY_Receiver.vhd:252]
+WARNING: [Synth 8-3848] Net SFEN_Lanes[1][aRxUlpsEsc] in module/entity MIPI_DPHY_Receiver does not have driver. [/home/ernesto/workstation/Systems_Cleanbot/hardware/PiCAM/PiCAM.srcs/sources_1/bd/design_1/ipshared/1e3c/hdl/MIPI_DPHY_Receiver.vhd:252]
+WARNING: [Synth 8-3848] Net SFEN_Lanes[1][aRxTriggerEsc] in module/entity MIPI_DPHY_Receiver does not have driver. [/home/ernesto/workstation/Systems_Cleanbot/hardware/PiCAM/PiCAM.srcs/sources_1/bd/design_1/ipshared/1e3c/hdl/MIPI_DPHY_Receiver.vhd:252]
+WARNING: [Synth 8-3848] Net dLP0_in[0] in module/entity MIPI_DPHY_Receiver does not have driver. [/home/ernesto/workstation/Systems_Cleanbot/hardware/PiCAM/PiCAM.srcs/sources_1/bd/design_1/ipshared/1e3c/hdl/MIPI_DPHY_Receiver.vhd:206]
+WARNING: [Synth 8-3848] Net dLP1_in[0] in module/entity MIPI_DPHY_Receiver does not have driver. [/home/ernesto/workstation/Systems_Cleanbot/hardware/PiCAM/PiCAM.srcs/sources_1/bd/design_1/ipshared/1e3c/hdl/MIPI_DPHY_Receiver.vhd:206]
+WARNING: [Synth 8-3848] Net cLP_in[0] in module/entity MIPI_DPHY_Receiver does not have driver. [/home/ernesto/workstation/Systems_Cleanbot/hardware/PiCAM/PiCAM.srcs/sources_1/bd/design_1/ipshared/1e3c/hdl/MIPI_DPHY_Receiver.vhd:211]
+WARNING: [Synth 8-3848] Net dLP0_in[1] in module/entity MIPI_DPHY_Receiver does not have driver. [/home/ernesto/workstation/Systems_Cleanbot/hardware/PiCAM/PiCAM.srcs/sources_1/bd/design_1/ipshared/1e3c/hdl/MIPI_DPHY_Receiver.vhd:206]
+WARNING: [Synth 8-3848] Net dLP1_in[1] in module/entity MIPI_DPHY_Receiver does not have driver. [/home/ernesto/workstation/Systems_Cleanbot/hardware/PiCAM/PiCAM.srcs/sources_1/bd/design_1/ipshared/1e3c/hdl/MIPI_DPHY_Receiver.vhd:206]
+WARNING: [Synth 8-3848] Net cLP_in[1] in module/entity MIPI_DPHY_Receiver does not have driver. [/home/ernesto/workstation/Systems_Cleanbot/hardware/PiCAM/PiCAM.srcs/sources_1/bd/design_1/ipshared/1e3c/hdl/MIPI_DPHY_Receiver.vhd:211]
+WARNING: [Synth 8-7129] Port dDataOut9[8] in module HS_Deserializer is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dDataOut9[7] in module HS_Deserializer is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dDataOut9[6] in module HS_Deserializer is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dDataOut9[5] in module HS_Deserializer is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dDataOut9[4] in module HS_Deserializer is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dDataOut9[3] in module HS_Deserializer is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dDataOut9[2] in module HS_Deserializer is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dDataOut9[1] in module HS_Deserializer is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dDataOut9[0] in module HS_Deserializer is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dLP0_in[7] in module HS_Deserializer is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dLP0_in[6] in module HS_Deserializer is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dLP0_in[5] in module HS_Deserializer is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dLP0_in[4] in module HS_Deserializer is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dLP0_in[3] in module HS_Deserializer is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dLP0_in[2] in module HS_Deserializer is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dLP0_in[1] in module HS_Deserializer is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dLP0_in[0] in module HS_Deserializer is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dLP1_in[7] in module HS_Deserializer is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dLP1_in[6] in module HS_Deserializer is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dLP1_in[5] in module HS_Deserializer is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dLP1_in[4] in module HS_Deserializer is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dLP1_in[3] in module HS_Deserializer is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dLP1_in[2] in module HS_Deserializer is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dLP1_in[1] in module HS_Deserializer is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dLP1_in[0] in module HS_Deserializer is either unconnected or has no load
+WARNING: [Synth 8-7129] Port aErrEsc in module DPHY_LaneSFEN is either unconnected or has no load
+WARNING: [Synth 8-7129] Port aErrControl in module DPHY_LaneSFEN is either unconnected or has no load
+WARNING: [Synth 8-7129] Port cLP_in[1] in module DPHY_LaneSFEN is either unconnected or has no load
+WARNING: [Synth 8-7129] Port cLP_in[0] in module DPHY_LaneSFEN is either unconnected or has no load
+WARNING: [Synth 8-7129] Port aForceRxmode in module DPHY_LaneSCNN is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWPROT[2] in module MIPI_DPHY_Receiver_S_AXI_Lite is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWPROT[1] in module MIPI_DPHY_Receiver_S_AXI_Lite is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWPROT[0] in module MIPI_DPHY_Receiver_S_AXI_Lite is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_ARPROT[2] in module MIPI_DPHY_Receiver_S_AXI_Lite is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_ARPROT[1] in module MIPI_DPHY_Receiver_S_AXI_Lite is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_ARPROT[0] in module MIPI_DPHY_Receiver_S_AXI_Lite is either unconnected or has no load
+WARNING: [Synth 8-7129] Port aClkErrControl in module MIPI_DPHY_Receiver is either unconnected or has no load
+WARNING: [Synth 8-7129] Port aD0UlpsActiveNot in module MIPI_DPHY_Receiver is either unconnected or has no load
+WARNING: [Synth 8-7129] Port D0RxClkEsc in module MIPI_DPHY_Receiver is either unconnected or has no load
+WARNING: [Synth 8-7129] Port aD0RxDataEsc[7] in module MIPI_DPHY_Receiver is either unconnected or has no load
+WARNING: [Synth 8-7129] Port aD0RxDataEsc[6] in module MIPI_DPHY_Receiver is either unconnected or has no load
+WARNING: [Synth 8-7129] Port aD0RxDataEsc[5] in module MIPI_DPHY_Receiver is either unconnected or has no load
+WARNING: [Synth 8-7129] Port aD0RxDataEsc[4] in module MIPI_DPHY_Receiver is either unconnected or has no load
+WARNING: [Synth 8-7129] Port aD0RxDataEsc[3] in module MIPI_DPHY_Receiver is either unconnected or has no load
+WARNING: [Synth 8-7129] Port aD0RxDataEsc[2] in module MIPI_DPHY_Receiver is either unconnected or has no load
+WARNING: [Synth 8-7129] Port aD0RxDataEsc[1] in module MIPI_DPHY_Receiver is either unconnected or has no load
+WARNING: [Synth 8-7129] Port aD0RxDataEsc[0] in module MIPI_DPHY_Receiver is either unconnected or has no load
+WARNING: [Synth 8-7129] Port aD0RxValidEsc in module MIPI_DPHY_Receiver is either unconnected or has no load
+WARNING: [Synth 8-7129] Port aD0RxLpdtEsc in module MIPI_DPHY_Receiver is either unconnected or has no load
+WARNING: [Synth 8-7129] Port aD0RxUlpsEsc in module MIPI_DPHY_Receiver is either unconnected or has no load
+WARNING: [Synth 8-7129] Port aD0RxTriggerEsc[3] in module MIPI_DPHY_Receiver is either unconnected or has no load
+WARNING: [Synth 8-7129] Port aD0RxTriggerEsc[2] in module MIPI_DPHY_Receiver is either unconnected or has no load
+WARNING: [Synth 8-7129] Port aD0RxTriggerEsc[1] in module MIPI_DPHY_Receiver is either unconnected or has no load
+WARNING: [Synth 8-7129] Port aD0RxTriggerEsc[0] in module MIPI_DPHY_Receiver is either unconnected or has no load
+WARNING: [Synth 8-7129] Port aD1UlpsActiveNot in module MIPI_DPHY_Receiver is either unconnected or has no load
+WARNING: [Synth 8-7129] Port D1RxClkEsc in module MIPI_DPHY_Receiver is either unconnected or has no load
+WARNING: [Synth 8-7129] Port aD1RxDataEsc[7] in module MIPI_DPHY_Receiver is either unconnected or has no load
+WARNING: [Synth 8-7129] Port aD1RxDataEsc[6] in module MIPI_DPHY_Receiver is either unconnected or has no load
+WARNING: [Synth 8-7129] Port aD1RxDataEsc[5] in module MIPI_DPHY_Receiver is either unconnected or has no load
+WARNING: [Synth 8-7129] Port aD1RxDataEsc[4] in module MIPI_DPHY_Receiver is either unconnected or has no load
+WARNING: [Synth 8-7129] Port aD1RxDataEsc[3] in module MIPI_DPHY_Receiver is either unconnected or has no load
+WARNING: [Synth 8-7129] Port aD1RxDataEsc[2] in module MIPI_DPHY_Receiver is either unconnected or has no load
+WARNING: [Synth 8-7129] Port aD1RxDataEsc[1] in module MIPI_DPHY_Receiver is either unconnected or has no load
+WARNING: [Synth 8-7129] Port aD1RxDataEsc[0] in module MIPI_DPHY_Receiver is either unconnected or has no load
+WARNING: [Synth 8-7129] Port aD1RxValidEsc in module MIPI_DPHY_Receiver is either unconnected or has no load
+WARNING: [Synth 8-7129] Port aD1RxLpdtEsc in module MIPI_DPHY_Receiver is either unconnected or has no load
+WARNING: [Synth 8-7129] Port aD1RxUlpsEsc in module MIPI_DPHY_Receiver is either unconnected or has no load
+WARNING: [Synth 8-7129] Port aD1RxTriggerEsc[3] in module MIPI_DPHY_Receiver is either unconnected or has no load
+WARNING: [Synth 8-7129] Port aD1RxTriggerEsc[2] in module MIPI_DPHY_Receiver is either unconnected or has no load
+WARNING: [Synth 8-7129] Port aD1RxTriggerEsc[1] in module MIPI_DPHY_Receiver is either unconnected or has no load
+WARNING: [Synth 8-7129] Port aD1RxTriggerEsc[0] in module MIPI_DPHY_Receiver is either unconnected or has no load
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:12 ; elapsed = 00:00:15 . Memory (MB): peak = 2906.957 ; gain = 0.000 ; free physical = 2693 ; free virtual = 26055
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:12 ; elapsed = 00:00:15 . Memory (MB): peak = 2906.957 ; gain = 0.000 ; free physical = 2675 ; free virtual = 26040
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:12 ; elapsed = 00:00:15 . Memory (MB): peak = 2906.957 ; gain = 0.000 ; free physical = 2675 ; free virtual = 26040
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.01 . Memory (MB): peak = 2906.957 ; gain = 0.000 ; free physical = 2653 ; free virtual = 26022
+INFO: [Netlist 29-17] Analyzing 13 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [/home/ernesto/workstation/Systems_Cleanbot/hardware/PiCAM/PiCAM.srcs/sources_1/bd/design_1/ip/design_1_MIPI_D_PHY_RX_0_0_1/hdl/MIPI_DPHY_Receiver_ooc.xdc] for cell 'U0'
+Finished Parsing XDC File [/home/ernesto/workstation/Systems_Cleanbot/hardware/PiCAM/PiCAM.srcs/sources_1/bd/design_1/ip/design_1_MIPI_D_PHY_RX_0_0_1/hdl/MIPI_DPHY_Receiver_ooc.xdc] for cell 'U0'
+CRITICAL WARNING: [Designutils 20-1280] Could not find module 'ila_scnn_refclk'. The XDC file /home/ernesto/workstation/Systems_Cleanbot/hardware/PiCAM/PiCAM.srcs/sources_1/bd/design_1/ip/design_1_MIPI_D_PHY_RX_0_0_1/hdl/ila_scnn_refclk/ila_v6_2/constraints/ila.xdc will not be read for any cell of this module.
+CRITICAL WARNING: [Designutils 20-1280] Could not find module 'ila_sfen_refclk'. The XDC file /home/ernesto/workstation/Systems_Cleanbot/hardware/PiCAM/PiCAM.srcs/sources_1/bd/design_1/ip/design_1_MIPI_D_PHY_RX_0_0_1/hdl/ila_sfen_refclk/ila_v6_2/constraints/ila.xdc will not be read for any cell of this module.
+CRITICAL WARNING: [Designutils 20-1280] Could not find module 'ila_sfen_rxclk'. The XDC file /home/ernesto/workstation/Systems_Cleanbot/hardware/PiCAM/PiCAM.srcs/sources_1/bd/design_1/ip/design_1_MIPI_D_PHY_RX_0_0_1/hdl/ila_sfen_rxclk/ila_v6_2/constraints/ila.xdc will not be read for any cell of this module.
+Parsing XDC File [/home/ernesto/workstation/Systems_Cleanbot/hardware/PiCAM/PiCAM.srcs/sources_1/bd/design_1/ip/design_1_MIPI_D_PHY_RX_0_0_1/hdl/MIPI_DPHY_Receiver.xdc] for cell 'U0'
+Finished Parsing XDC File [/home/ernesto/workstation/Systems_Cleanbot/hardware/PiCAM/PiCAM.srcs/sources_1/bd/design_1/ip/design_1_MIPI_D_PHY_RX_0_0_1/hdl/MIPI_DPHY_Receiver.xdc] for cell 'U0'
+Parsing XDC File [/home/ernesto/workstation/Systems_Cleanbot/hardware/PiCAM/PiCAM.runs/design_1_MIPI_D_PHY_RX_0_0_synth_1/dont_touch.xdc]
+Finished Parsing XDC File [/home/ernesto/workstation/Systems_Cleanbot/hardware/PiCAM/PiCAM.runs/design_1_MIPI_D_PHY_RX_0_0_synth_1/dont_touch.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [/home/ernesto/workstation/Systems_Cleanbot/hardware/PiCAM/PiCAM.runs/design_1_MIPI_D_PHY_RX_0_0_synth_1/dont_touch.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/design_1_MIPI_D_PHY_RX_0_0_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/design_1_MIPI_D_PHY_RX_0_0_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+INFO: [Timing 38-2] Deriving generated clocks
+Parsing XDC File [/home/ernesto/workstation/Systems_Cleanbot/hardware/PiCAM/PiCAM.srcs/sources_1/bd/design_1/ip/design_1_MIPI_D_PHY_RX_0_0_1/hdl/MIPI_DPHY_Receiver_clocks.xdc] for cell 'U0'
+Finished Parsing XDC File [/home/ernesto/workstation/Systems_Cleanbot/hardware/PiCAM/PiCAM.srcs/sources_1/bd/design_1/ip/design_1_MIPI_D_PHY_RX_0_0_1/hdl/MIPI_DPHY_Receiver_clocks.xdc] for cell 'U0'
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3029.801 ; gain = 0.000 ; free physical = 2379 ; free virtual = 25976
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00.03 ; elapsed = 00:00:00.02 . Memory (MB): peak = 3029.801 ; gain = 0.000 ; free physical = 2372 ; free virtual = 25976
+INFO: [Designutils 20-5008] Incremental synthesis strategy off
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:19 ; elapsed = 00:00:23 . Memory (MB): peak = 3029.801 ; gain = 122.844 ; free physical = 2110 ; free virtual = 26701
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z020clg400-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:19 ; elapsed = 00:00:23 . Memory (MB): peak = 3029.801 ; gain = 122.844 ; free physical = 2109 ; free virtual = 26700
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property KEEP_HIERARCHY = SOFT for U0. (constraint file  /home/ernesto/workstation/Systems_Cleanbot/hardware/PiCAM/PiCAM.runs/design_1_MIPI_D_PHY_RX_0_0_synth_1/dont_touch.xdc, line 33).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:19 ; elapsed = 00:00:23 . Memory (MB): peak = 3029.801 ; gain = 122.844 ; free physical = 2104 ; free virtual = 26696
+---------------------------------------------------------------------------------
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'DPHY_LaneSCNN'
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'DPHY_LaneSFEN'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                  stinit |                        000000001 |                             0000
+                  ststop |                        000000010 |                             0001
+               sths_prpr |                        000000100 |                             0010
+               sths_term |                        000001000 |                             0011
+                sths_clk |                        000010000 |                             0100
+                sths_end |                        000100000 |                             0101
+             stulps_rqst |                        001000000 |                             1000
+                  stulps |                        010000000 |                             0110
+             stulps_exit |                        100000000 |                             0111
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'one-hot' in module 'DPHY_LaneSCNN'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+         stinitcountdown |                              101 |                              000
+           stwaitforstop |                              100 |                              001
+                  ststop |                              001 |                              010
+               sths_rqst |                              011 |                              011
+             sths_settle |                              010 |                              100
+                sths_rcv |                              000 |                              101
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'sequential' in module 'DPHY_LaneSFEN'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:20 ; elapsed = 00:00:24 . Memory (MB): peak = 3029.801 ; gain = 122.844 ; free physical = 2084 ; free virtual = 26708
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input    5 Bit       Adders := 1     
+	   8 Input    4 Bit       Adders := 16    
+	   2 Input    2 Bit       Adders := 6     
++---XORs : 
+	   2 Input      8 Bit         XORs := 16    
++---Registers : 
+	               32 Bit    Registers := 2     
+	                8 Bit    Registers := 10    
+	                5 Bit    Registers := 1     
+	                4 Bit    Registers := 4     
+	                3 Bit    Registers := 4     
+	                2 Bit    Registers := 30    
+	                1 Bit    Registers := 47    
++---Muxes : 
+	   2 Input   32 Bit        Muxes := 2     
+	   3 Input   32 Bit        Muxes := 1     
+	   9 Input    9 Bit        Muxes := 1     
+	   2 Input    9 Bit        Muxes := 10    
+	   3 Input    9 Bit        Muxes := 2     
+	   2 Input    4 Bit        Muxes := 7     
+	   3 Input    4 Bit        Muxes := 2     
+	   9 Input    4 Bit        Muxes := 2     
+	   2 Input    3 Bit        Muxes := 30    
+	   3 Input    3 Bit        Muxes := 4     
+	   6 Input    3 Bit        Muxes := 8     
+	   2 Input    1 Bit        Muxes := 23    
+	   9 Input    1 Bit        Muxes := 2     
+	   8 Input    1 Bit        Muxes := 2     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 220 (col length:60)
+BRAMs: 280 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+WARNING: [Synth 8-7129] Port aErrEsc in module DPHY_LaneSFEN is either unconnected or has no load
+WARNING: [Synth 8-7129] Port aErrControl in module DPHY_LaneSFEN is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dLP0_in[7] in module DPHY_LaneSFEN is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dLP0_in[6] in module DPHY_LaneSFEN is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dLP0_in[5] in module DPHY_LaneSFEN is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dLP0_in[4] in module DPHY_LaneSFEN is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dLP0_in[3] in module DPHY_LaneSFEN is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dLP0_in[2] in module DPHY_LaneSFEN is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dLP0_in[1] in module DPHY_LaneSFEN is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dLP0_in[0] in module DPHY_LaneSFEN is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dLP1_in[7] in module DPHY_LaneSFEN is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dLP1_in[6] in module DPHY_LaneSFEN is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dLP1_in[5] in module DPHY_LaneSFEN is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dLP1_in[4] in module DPHY_LaneSFEN is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dLP1_in[3] in module DPHY_LaneSFEN is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dLP1_in[2] in module DPHY_LaneSFEN is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dLP1_in[1] in module DPHY_LaneSFEN is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dLP1_in[0] in module DPHY_LaneSFEN is either unconnected or has no load
+WARNING: [Synth 8-7129] Port cLP_in[1] in module DPHY_LaneSFEN is either unconnected or has no load
+WARNING: [Synth 8-7129] Port cLP_in[0] in module DPHY_LaneSFEN is either unconnected or has no load
+WARNING: [Synth 8-7129] Port aForceRxmode in module DPHY_LaneSCNN is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWPROT[2] in module MIPI_DPHY_Receiver_S_AXI_Lite is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWPROT[1] in module MIPI_DPHY_Receiver_S_AXI_Lite is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWPROT[0] in module MIPI_DPHY_Receiver_S_AXI_Lite is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_ARPROT[2] in module MIPI_DPHY_Receiver_S_AXI_Lite is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_ARPROT[1] in module MIPI_DPHY_Receiver_S_AXI_Lite is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_ARPROT[0] in module MIPI_DPHY_Receiver_S_AXI_Lite is either unconnected or has no load
+WARNING: [Synth 8-7129] Port aClkErrControl in module MIPI_DPHY_Receiver is either unconnected or has no load
+WARNING: [Synth 8-7129] Port aD0UlpsActiveNot in module MIPI_DPHY_Receiver is either unconnected or has no load
+INFO: [Common 17-14] Message 'Synth 8-7129' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:25 ; elapsed = 00:00:29 . Memory (MB): peak = 3029.801 ; gain = 122.844 ; free physical = 2614 ; free virtual = 27726
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:30 ; elapsed = 00:00:35 . Memory (MB): peak = 3029.801 ; gain = 122.844 ; free physical = 2391 ; free virtual = 27631
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:30 ; elapsed = 00:00:35 . Memory (MB): peak = 3029.801 ; gain = 122.844 ; free physical = 2368 ; free virtual = 27612
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:31 ; elapsed = 00:00:35 . Memory (MB): peak = 3029.801 ; gain = 122.844 ; free physical = 2319 ; free virtual = 27584
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:34 ; elapsed = 00:00:39 . Memory (MB): peak = 3029.801 ; gain = 122.844 ; free physical = 2825 ; free virtual = 28336
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:34 ; elapsed = 00:00:39 . Memory (MB): peak = 3029.801 ; gain = 122.844 ; free physical = 2824 ; free virtual = 28336
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:34 ; elapsed = 00:00:39 . Memory (MB): peak = 3029.801 ; gain = 122.844 ; free physical = 2822 ; free virtual = 28334
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:34 ; elapsed = 00:00:39 . Memory (MB): peak = 3029.801 ; gain = 122.844 ; free physical = 2814 ; free virtual = 28326
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:34 ; elapsed = 00:00:39 . Memory (MB): peak = 3029.801 ; gain = 122.844 ; free physical = 2820 ; free virtual = 28334
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:34 ; elapsed = 00:00:39 . Memory (MB): peak = 3029.801 ; gain = 122.844 ; free physical = 2819 ; free virtual = 28333
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-----------+------+
+|      |Cell       |Count |
++------+-----------+------+
+|1     |BUFIO      |     1|
+|2     |BUFR       |     1|
+|3     |CARRY4     |    12|
+|4     |IDELAYCTRL |     1|
+|5     |IDELAYE2   |     3|
+|7     |ISERDESE2  |     6|
+|9     |LUT1       |    13|
+|10    |LUT2       |    54|
+|11    |LUT3       |    86|
+|12    |LUT4       |    73|
+|13    |LUT5       |    58|
+|14    |LUT6       |   116|
+|15    |FDCE       |    16|
+|16    |FDPE       |    18|
+|17    |FDRE       |   286|
+|18    |FDSE       |     9|
+|19    |IBUF       |     6|
+|20    |IBUFDS     |     3|
++------+-----------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:34 ; elapsed = 00:00:39 . Memory (MB): peak = 3029.801 ; gain = 122.844 ; free physical = 2819 ; free virtual = 28333
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 63 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:32 ; elapsed = 00:00:36 . Memory (MB): peak = 3029.801 ; gain = 0.000 ; free physical = 2856 ; free virtual = 28386
+Synthesis Optimization Complete : Time (s): cpu = 00:00:34 ; elapsed = 00:00:39 . Memory (MB): peak = 3029.801 ; gain = 122.844 ; free physical = 2856 ; free virtual = 28386
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.01 . Memory (MB): peak = 3029.801 ; gain = 0.000 ; free physical = 2896 ; free virtual = 28409
+INFO: [Netlist 29-17] Analyzing 25 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 1 inverter(s) to 6 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3029.801 ; gain = 0.000 ; free physical = 3000 ; free virtual = 28542
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Synth Design complete, checksum: e67f52cb
+INFO: [Common 17-83] Releasing license: Synthesis
+71 Infos, 137 Warnings, 3 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:46 ; elapsed = 00:00:44 . Memory (MB): peak = 3029.801 ; gain = 122.844 ; free physical = 3193 ; free virtual = 28741
+INFO: [Common 17-1381] The checkpoint '/home/ernesto/workstation/Systems_Cleanbot/hardware/PiCAM/PiCAM.runs/design_1_MIPI_D_PHY_RX_0_0_synth_1/design_1_MIPI_D_PHY_RX_0_0.dcp' has been generated.
+INFO: [runtcl-6] Synthesis results are not added to the cache due to CRITICAL_WARNING
+INFO: [Coretcl 2-1174] Renamed 47 cell refs.
+INFO: [Common 17-1381] The checkpoint '/home/ernesto/workstation/Systems_Cleanbot/hardware/PiCAM/PiCAM.runs/design_1_MIPI_D_PHY_RX_0_0_synth_1/design_1_MIPI_D_PHY_RX_0_0.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file design_1_MIPI_D_PHY_RX_0_0_utilization_synth.rpt -pb design_1_MIPI_D_PHY_RX_0_0_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Mon Nov  7 23:10:01 2022...
